@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33027.164
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "2_ETL_DESPLAZAMIENTOS", "2_ETL_DESPLAZAMIENTOS.dtproj", "{678CBB70-7F24-48EF-AD4C-CECD944C3205}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{678CBB70-7F24-48EF-AD4C-CECD944C3205}.Development|Default.ActiveCfg = Development
+		{678CBB70-7F24-48EF-AD4C-CECD944C3205}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D18CE2A-BF7E-4F33-B81B-73CB8D4DC669}
+	EndGlobalSection
+EndGlobal

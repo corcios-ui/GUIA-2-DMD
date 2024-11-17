@@ -1,0 +1,258 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a2827d27-fd2d-4ccf-989a-6a151a709c65" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>SV DESPLAZAMIENTOS</ID>
+  <Name>SV DESPLAZAMIENTOS</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="11" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7698" scrolltop="-2293" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="29263" y="14314" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TBL_COVID_DESPLAZAMIENTOS_SV" left="20" top="0" logicalid="7" controlid="2" masterid="0" hint1="0" hint2="0" width="8255" height="6826" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00003f200000aa1a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_TBL_COVID_DESPLAZAMIENTOS_SV" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-7698</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2293</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="c2c7eabd-a1e4-412b-8595-a63496a51e1c">
+      <ID>TBL COVID DESPLAZAMIENTOS SV</ID>
+      <Name>TBL COVID DESPLAZAMIENTOS SV</Name>
+      <DimensionID>TBL COVID DESPLAZAMIENTOS SV</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="99318d61-55f6-4e41-8316-e74f707e4b0a">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f74e44b2-e51e-47ee-b242-f3d37756abb6">
+          <AttributeID>Sub Region 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="19f75d8b-3c51-433c-b7af-ed7eecc9133d">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ef3953e3-14ba-4165-bec7-c45616a670ac">
+          <AttributeID>Retail And Recreation Percent Change From Baseline</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b4c3332d-d17b-4949-bcd1-7301eb3ab8a5">
+          <AttributeID>Grocery And Pharmacy Percent Change From Baseline</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3753ee92-5fc4-4cf3-aabe-912cee135079">
+          <AttributeID>Parks Percent Change From Baseline</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="16fc33fc-7ccc-463c-8a06-171fac79ab3f">
+          <AttributeID>Transit Stations Percent Change From Baseline</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="33a60f16-cae3-4116-97d6-96e6424054d2">
+          <AttributeID>Workplaces Percent Change From Baseline</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="90229ccf-341a-4651-b142-1b518772d16d">
+          <AttributeID>Residential Percent Change From Baseline</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="75a48a58-61dd-435b-87b2-626446e38d15">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="52594d17-17aa-472b-be04-3927687e43a2">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="55c11e9a-8541-40b9-b141-866662b01d94">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="b8712584-bab1-4008-8f2b-c30a86bd6ce0">
+      <ID>TBL COVID DESPLAZAMIENTOS SV</ID>
+      <Name>TBL COVID DESPLAZAMIENTOS SV</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="4ed3ee09-7b26-4759-881d-b6080752f85b">
+          <ID>Retail And Recreation Percent Change From Baseline</ID>
+          <Name>Retail And Recreation Percent Change From Baseline</Name>
+          <Source dwd:design-time-name="d13bd6f0-1bf7-41a6-84fb-0d3b73b9d07e">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a4292f0b-376e-4e6e-9878-f0640aee9161">
+              <TableID>dbo_TBL_COVID_DESPLAZAMIENTOS_SV</TableID>
+              <ColumnID>retail_and_recreation_percent_change_from_baseline</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="eb84642a-193e-4b65-8f93-e54a94044db3">
+          <ID>Grocery And Pharmacy Percent Change From Baseline</ID>
+          <Name>Grocery And Pharmacy Percent Change From Baseline</Name>
+          <Source dwd:design-time-name="651a40e5-7751-4a7a-9187-b59b340deb16">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="22d0254f-22e2-48a1-ae10-dd46f41ad061">
+              <TableID>dbo_TBL_COVID_DESPLAZAMIENTOS_SV</TableID>
+              <ColumnID>grocery_and_pharmacy_percent_change_from_baseline</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="26155f7e-6be8-48fb-8de6-c41185ffb963">
+          <ID>Parks Percent Change From Baseline</ID>
+          <Name>Parks Percent Change From Baseline</Name>
+          <Source dwd:design-time-name="111930ab-2728-4656-b46a-9e3f103e142d">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3cf3a601-28b2-46e5-8721-336dfea0747c">
+              <TableID>dbo_TBL_COVID_DESPLAZAMIENTOS_SV</TableID>
+              <ColumnID>parks_percent_change_from_baseline</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9517ff52-19bd-498e-a5b0-d94754092d65">
+          <ID>Transit Stations Percent Change From Baseline</ID>
+          <Name>Transit Stations Percent Change From Baseline</Name>
+          <Source dwd:design-time-name="be9d42ef-cac0-4783-9070-624507ef1496">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2125877a-7f82-488c-919e-b1f5a8d39bb1">
+              <TableID>dbo_TBL_COVID_DESPLAZAMIENTOS_SV</TableID>
+              <ColumnID>transit_stations_percent_change_from_baseline</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="286b353b-6def-4c3a-87bd-d73f870bb495">
+          <ID>Workplaces Percent Change From Baseline</ID>
+          <Name>Workplaces Percent Change From Baseline</Name>
+          <Source dwd:design-time-name="49df0b55-d6e4-4744-afae-0169d0d978f4">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2961b8b4-8f44-4297-8e33-3b763ddd0bc8">
+              <TableID>dbo_TBL_COVID_DESPLAZAMIENTOS_SV</TableID>
+              <ColumnID>workplaces_percent_change_from_baseline</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="55b4c25e-c4d1-496e-b318-1e7c5858ef33">
+          <ID>Residential Percent Change From Baseline</ID>
+          <Name>Residential Percent Change From Baseline</Name>
+          <Source dwd:design-time-name="5b6dd8aa-7ea4-43a3-9d49-064e697f39ca">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="44e4acbf-dcb3-4bc6-9d41-247c4d50259e">
+              <TableID>dbo_TBL_COVID_DESPLAZAMIENTOS_SV</TableID>
+              <ColumnID>residential_percent_change_from_baseline</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="52b1a2aa-1b5e-46a8-b7a5-9b0fdb7dffe7">
+          <ID>Recuento TBL COVID DESPLAZAMIENTOS SV</ID>
+          <Name>Recuento TBL COVID DESPLAZAMIENTOS SV</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="b61c2980-d871-4163-ad8e-c3827bcaea53">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="e69922c1-094d-4597-99c7-aaacade2349d">
+              <TableID>dbo_TBL_COVID_DESPLAZAMIENTOS_SV</TableID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="7fbe5709-ed08-4621-86a1-779e8843ea5d">
+          <ID>Mínimo Retail And Recreation Percent Change From Baseline</ID>
+          <Name>Mínimo Retail And Recreation Percent Change From Baseline</Name>
+          <AggregateFunction>Min</AggregateFunction>
+          <Source dwd:design-time-name="25a0413a-f1aa-4e21-a4e1-2201bafcf011">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b003bd26-f08b-408d-ab21-d37b43d6427b">
+              <TableID>dbo_TBL_COVID_DESPLAZAMIENTOS_SV</TableID>
+              <ColumnID>retail_and_recreation_percent_change_from_baseline</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="fe93c345-817b-4129-b337-fff2fd2e7923">
+          <ID>Máximo Retail And Recreation Percent Change From Baseline</ID>
+          <Name>Máximo Retail And Recreation Percent Change From Baseline</Name>
+          <AggregateFunction>Max</AggregateFunction>
+          <Source dwd:design-time-name="b85c3383-4183-426b-a1f0-4fca46617957">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a0981181-9f08-4455-84fd-98a1bc604095">
+              <TableID>dbo_TBL_COVID_DESPLAZAMIENTOS_SV</TableID>
+              <ColumnID>retail_and_recreation_percent_change_from_baseline</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="13764c3e-0831-43fa-bf79-7027cbfea2ed">
+          <CubeDimensionID>TBL COVID DESPLAZAMIENTOS SV</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7bdeb322-3809-47b7-bc4f-e62a36c85e34">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="82430b3c-ac7e-41e8-a38c-8ed89bde8311">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="df5c13fd-00ad-42b6-a553-8817c59b269d">
+                    <TableID>dbo_TBL_COVID_DESPLAZAMIENTOS_SV</TableID>
+                    <ColumnID>id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="382ec6b1-6259-459e-b066-6d1a1bad7ae8">
+    <DataSourceViewID>SV DESPLAZAMIENTOS</DataSourceViewID>
+  </Source>
+</Cube>
